@@ -1,4 +1,4 @@
-namespace QuanLySinhVien
+﻿namespace QuanLySinhVien
 {
     public partial class Form1 : Form
     {
@@ -12,11 +12,10 @@ namespace QuanLySinhVien
            
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void loginButton_Click(object sender, EventArgs e)
         {
-            Form2 a = new Form2();
-
-            a.Show();
+            //Check tài khoản đăng nhập
+            //Nếu đúng -> Hiện thị Form2 (Màn hình quản lý học sinh)
         }
     }
 }
